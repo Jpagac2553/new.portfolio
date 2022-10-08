@@ -1,0 +1,119 @@
+
+
+/* 
+	One stylesheet for everything.
+*/
+
+/* -------  Structure ------- */
+
+body {
+  background-color:rgb(164, 164, 172);
+}
+
+header {
+	height: 130px;
+	background-color: #7ddec6;
+	padding-bottom:0%;
+}
+
+footer {
+	height: 84px;
+	background-color:  #7ddec6;
+}
+
+.wrapper {
+	width: 570px;
+	margin: auto;	
+}
+
+
+
+
+
+/*i wanted the font to be uniform for neatness*/
+
+header h1 {
+	font-family: "monaco";
+	color:black;
+	margin: 0px;
+	padding-top: 24px;
+	font-size: 48px;
+	text-align:center;
+}
+
+header h2 {
+	font-family: "monaco";
+	color: black;
+	margin: 0px;
+	padding-top: 16px;
+	font-size: 22px;
+	text-align: center;
+}
+
+/*Type*/
+
+h1, h2 {
+	color: black;
+	font-family: "monaco";
+}
+
+h1 { font-size: 38px;}
+h2 { font-size: 30px;}
+
+p, li {
+	font-family:"monaco";
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 26px;
+}
+
+
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+/*link classes*/
+
+a:link { color: #38786a; }
+a:visited { color: #38786a; }
+a:hover { color: #403933; }
+a:active { color: #403933; }
+
+
+a:hover {
+	text-decoration: underline;	
+}
+
+footer p {
+	color: black;	
+	text-align: center;
+}
+
+
+/*Elements*/
+
+
+hr { border: .5px solid #403933;}
+
+
+/*Spacers*/  
+
+.gap-sm {
+    height: 50px;
+    width: auto;
+}
+.gap-md {
+    height: 100px;
+    width: auto;
+}
+.gap-lg {
+    height: 200px;
+    width: auto;
+}
+
+.gap-footer {
+    height: 10px;
+    width: auto;
+}
