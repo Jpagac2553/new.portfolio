@@ -76,6 +76,19 @@ a {
 
 /*link classes*/
 
+.mapouter {
+  position:relative;
+  text-align:right;
+  height:500px;
+  width:599px;
+}
+
+.gmap_canvas {overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:599px;
+}
+
 a:link { color: #38786a; }
 a:visited { color: #38786a; }
 a:hover { color: #403933; }
